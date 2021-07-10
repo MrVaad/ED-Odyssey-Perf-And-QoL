@@ -19,11 +19,11 @@ The other ones are more about quality of life
 2.  Unzip the file
 3.  Copy the following files from the x64 folder, to your Elite folder  
     Standalone: [Elite install folder]\Products\elite-dangerous-odyssey-64\  
-    Steam : [steam install folder]\steamapps\common\Elite Dangerous\Products\elite-dangerous-odyssey-64\)  
-    `d3d11.dll
-    d3dcompiler_46.dll
-    nvapi64.dll
-    uninstall.bat (this one is optional but it allows you to remove 3Dmigoto easily)`
+    Steam:      [steam install folder]\steamapps\common\Elite Dangerous\Products\elite-dangerous-odyssey-64\)  
+    - d3d11.dll
+    - d3dcompiler_46.dll
+    - nvapi64.dll
+    - uninstall.bat (this one is optional but it allows you to remove 3Dmigoto easily)
 4. Get the mod from the release page
 4. Unzip the file
 5. Copy the d3dx.ini in attachment to the same Elite folder.
