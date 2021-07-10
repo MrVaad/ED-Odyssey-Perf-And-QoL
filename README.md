@@ -1,7 +1,15 @@
 # ED-Odyssey-Perf-And-QoL
- Elite Dangerous Odyssey - Shader tweaks for performance and quality of life
+This mod uses a 3rd party tool (3DMigoto) to disable some shaders for performance or quality of life.
+Each shader can be disabled independently with hotkeys or changing settings in a file.
 
-# Disabling shader effects  (Helmet/breath effect, indoor/outdoor glass reflection effects, screenglare, galaxy stars brightness)
+Currently the mod can disable the following shaders :
+- Helmet and breath effect
+- screenglare on foot
+- indoor  glass reflection
+- outdoor glass reflection 
+- galaxy stars brightness on foot
+- galaxy clouds/nebulae
+
 The glass reflection shaders are the most problematic. There's one for indoor buildings/concourse and one for outdoor (the outdoor one is also used in the concourse, when looking outside).  
 The other ones are more about quality of life 
   
@@ -13,8 +21,9 @@ The other ones are more about quality of life
     Standalone: [Elite install folder]\Products\elite-dangerous-odyssey-64\  
     Steam : [steam install folder]\steamapps\common\Elite Dangerous\Products\elite-dangerous-odyssey-64\)  
     `d3d11.dll d3dcompiler_46.dll nvapi64.dll uninstall.bat (this one is optional but it allows you to remove 3Dmigoto easily)`
-4.  Copy the d3dx.txt in attachment to the same folder.
-5.  Rename the d3dx.txt to d3dx.ini
+4. Get the mod from the release page
+4. Unzip the file
+5. Copy the d3dx.ini in attachment to the same Elite folder.
 
 ## Usage   
 F1 will enable/disable the helmet and breath effect (in first person view)  
