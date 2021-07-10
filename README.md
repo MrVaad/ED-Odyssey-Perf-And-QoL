@@ -1,6 +1,6 @@
 # ED-Odyssey-Perf-And-QoL
-This mod uses a 3rd party tool (3DMigoto) to disable some shaders for performance or quality of life.
-Each shader can be disabled independently with hotkeys or changing settings in a file.
+This mod uses a great 3rd party tool (3DMigoto) to disable some shaders for performance or quality of life.
+Each shader can be disabled independently with hotkeys or using settings in d3dx.ini (at the beginning of the file)
 
 Currently the mod can disable the following shaders :
 - Helmet and breath effect
@@ -15,7 +15,7 @@ The other ones are more about quality of life
   
 ## Install instructions  
 
-1.  Download a 3rd party program called 3Dmigoto (1.3.16 is the last version) : [https://github.com/bo3b/3Dmigoto/releases/download/1.3.16/3Dmigoto-1.3.16.zip](https://github.com/bo3b/3Dmigoto/releases/download/1.3.16/3Dmigoto-1.3.16.zip)
+1.  Download 3Dmigoto (1.3.16 is the last version) : [https://github.com/bo3b/3Dmigoto/releases/download/1.3.16/3Dmigoto-1.3.16.zip](https://github.com/bo3b/3Dmigoto/releases/download/1.3.16/3Dmigoto-1.3.16.zip)
 2.  Unzip the file
 3.  Copy the following files from the x64 folder, to your Elite folder  
     Standalone: [Elite install folder]\Products\elite-dangerous-odyssey-64\  
@@ -26,14 +26,18 @@ The other ones are more about quality of life
 5. Copy the d3dx.ini in attachment to the same Elite folder.
 
 ## Usage   
-F1 enable/disable the helmet and breath effect (in first person view)  
-F2 enable/disable the screenglare effect  
-F3 enable/disable the indoor glass shader effect (windows, guardrails, glasses, mission consoles)  
-F4 enable/disable the outdoor glass shader effect (windows mainly)  
-F5 enable/disable the galaxy stars brightness on foot (works in tutorial, doesn't have an effect on all planets, need to test in space)  
-F6 enable/disable the galaxy clouds/nebulae (works in tutorial, doesn't have an effect on all planets, need to test in space)  
-  
-To enable/disable those effects by default, change the first lines in the d3dx.ini (xxx=1 or xxx=0)  
+SHIFT+F1 enable/disable the helmet and breath effect (in first person view)  
+SHIFT+F2 enable/disable the screenglare effect  
+SHIFT+F3 enable/disable the indoor glass shader effect (windows, guardrails, glasses, mission consoles)  
+SHIFT+F4 enable/disable the outdoor glass shader effect (windows mainly)  
+SHIFT+F5 enable/disable the galaxy stars brightness on foot (works in tutorial, doesn't have an effect on all planets, need to test in space)  
+SHIFT+F6 enable/disable the galaxy clouds/nebulae (works in tutorial, doesn't have an effect on all planets, need to test in space)  
+ 
+SHIFT+F11 reload the config file d3dx.ini
+ 
+## Editing d3dX.ini   
+To enable/disable the shaders by default, change the lines in the 'INITIAL VALUES' section in d3dx.ini (xxx=1 or xxx=0)  
+Remove the shader hotkeys and shader commands section if you don't want to use the hotkeys.  
   
 ## Is Frontier Ok with this ?  
 3Dmigoto is used by a lot of mods, including some Elite mods like EDHM from _GeorjCostanza_ and the "Amazingly Realistic Immersion Mod" from _Old Duck_  
