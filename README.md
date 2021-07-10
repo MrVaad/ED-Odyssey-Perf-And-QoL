@@ -26,12 +26,12 @@ The other ones are more about quality of life
 5. Copy the d3dx.ini in attachment to the same Elite folder.
 
 ## Usage   
-F1 will enable/disable the helmet and breath effect (in first person view)  
-F2 will enable/disable the screenglare effect  
-F3 will enable/disable the indoor glass shader effect (windows, guardrails, glasses, mission consoles)  
-F4 will enable/disable the outdoor glass shader effect (windows mainly)  
-F5 will enable/disable the galaxy stars brightness on foot (works in tutorial, doesn't have an effect on all planets, need to test in space)  
-F6 will enable/disable the galaxy clouds/nebulae (works in tutorial, doesn't have an effect on all planets, need to test in space)  
+F1 enable/disable the helmet and breath effect (in first person view)  
+F2 enable/disable the screenglare effect  
+F3 enable/disable the indoor glass shader effect (windows, guardrails, glasses, mission consoles)  
+F4 enable/disable the outdoor glass shader effect (windows mainly)  
+F5 enable/disable the galaxy stars brightness on foot (works in tutorial, doesn't have an effect on all planets, need to test in space)  
+F6 enable/disable the galaxy clouds/nebulae (works in tutorial, doesn't have an effect on all planets, need to test in space)  
   
 To enable/disable those effects by default, change the first lines in the d3dx.ini (xxx=1 or xxx=0)  
   
