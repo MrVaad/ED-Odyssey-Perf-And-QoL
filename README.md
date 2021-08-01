@@ -7,8 +7,6 @@ Currently the mod can disable the following shaders :
 - screenglare on foot
 - indoor  glass reflection
 - outdoor glass reflection 
-- galaxy stars brightness on foot
-- galaxy clouds/nebulae
 
 The glass reflection shaders are the most problematic. There's one for indoor buildings/concourse and one for outdoor (the outdoor one is also used in the concourse, when looking outside).  
 The other ones are more about quality of life 
@@ -33,8 +31,6 @@ SHIFT+F1 enable/disable the helmet and breath effect (in first person view)
 SHIFT+F2 enable/disable the screenglare effect  
 SHIFT+F3 enable/disable the indoor glass shader effect (windows, guardrails, glasses, mission consoles)  
 SHIFT+F4 enable/disable the outdoor glass shader effect (windows mainly)  
-SHIFT+F5 enable/disable the galaxy stars brightness on foot (works in tutorial, doesn't have an effect on all planets, need to test in space)  
-SHIFT+F6 enable/disable the galaxy clouds/nebulae (works in tutorial, doesn't have an effect on all planets, need to test in space)  
  
 SHIFT+F11 reload the config file d3dx.ini
  
