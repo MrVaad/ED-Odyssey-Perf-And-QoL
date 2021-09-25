@@ -24,13 +24,13 @@ The other ones are more about quality of life
     - uninstall.bat (this one is optional but it allows you to remove 3Dmigoto easily)
 4. Get the mod from the release page
 4. Unzip the file
-5. Copy the d3dx.ini in attachment to the same Elite folder.
+5. Copy the d3dx.ini file to the same Elite folder.
 
 ## Usage   
 SHIFT+F1 enable/disable the helmet and breath effect (in first person view)  
 SHIFT+F2 enable/disable the screenglare effect  
 SHIFT+F3 enable/disable the indoor glass shader effect (windows, guardrails, glasses, mission consoles)  
-SHIFT+F4 enable/disable the outdoor glass shader effect (windows mainly)  
+SHIFT+F4 enable/disable the outdoor glass shader effect (windows mainly, when looking outside from a concourse/settlement building, or when looking inside a settlement building from outside)  
  
 SHIFT+F11 reload the config file d3dx.ini
  
