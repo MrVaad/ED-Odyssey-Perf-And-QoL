@@ -1,0 +1,365 @@
+{
+  "mod_name": "PerfAndQoL",
+  "author": "MrVaad",
+  "description": "v0.7 : Disable Reflections And various Quality Of Life (Odyssey)",
+  "file": "PerfAndQoL.ini",
+  "file_full": null,
+  "managed": true,
+  "sections": [ 
+    {
+      "name": "QoL",
+      "title": "Default settings when starting game",
+      "ini_section": "Constants",
+      "keys": [
+        {
+          "name": "Show Helmet And\n Breath Effect",
+          "type": "toggle",
+          "key": "global $showHelmet",
+          "value": "1",
+          "description": "Show helmet and breath effect on foot"
+        },
+        {
+          "name": "Show ScreenGlare",
+          "type": "toggle",
+          "key": "global $showScreenGlare",
+          "value": "1",
+          "description": "Show screenGlare on foot"
+        },
+        {
+          "name": "Show Indoor\n Glass Reflections",
+          "type": "toggle",
+          "key": "global $showIndoorGlassReflection",
+          "value": "1",
+          "description": "Show Indoor Glass Reflections (on glass windows, mission consoles"
+        },
+        {
+          "name": "Show Outdoor\n Glass Reflections",
+          "type": "toggle",
+          "key": "global $showOutdoorGlassReflection",
+          "value": "1",
+          "description": "Show Outdoor Glass Reflections (when looking inside a building\n or outside from inside a building"
+        },
+      ]
+    },
+    {
+      "name": "Toggle Helmet And Breath",
+      "title": "Toggle Helmet And Breath",
+      "ini_section": "keyToggleHelmet",
+      "keys": [
+        {
+          "name": "Binding Key",
+          "type": "key_binding",
+          "key": "Key",
+          "value": "SHIFT F1",
+          "description": "Choose a Key to bind."
+        },
+      ]
+    },
+    {
+      "name": "Toggle Screenglare",
+      "title": "Toggle ScreenGlare",
+      "ini_section": "keyToggleScreenGlare",
+      "keys": [
+        {
+          "name": "Binding Key",
+          "type": "key_binding",
+          "key": "Key",
+          "value": "SHIFT F2",
+          "description": "Choose a Key to bind."
+        },
+      ]
+    },
+    {
+      "name": "Toggle Indoor Glass Reflections",
+      "title": "Toggle Indoor Glass Reflections",
+      "ini_section": "keyToggleIndoorGlassShader",
+      "keys": [
+        {
+          "name": "Binding Key",
+          "type": "key_binding",
+          "key": "Key",
+          "value": "SHIFT F3",
+          "description": "Choose a Key to bind."
+        },
+      ]
+    },
+    {
+      "name": "Toggle Outdoor Glass Reflections",
+      "title": "Toggle Outdoor Glass Reflections",
+      "ini_section": "keyToggleOutdoorGlassShader",
+      "keys": [
+        {
+          "name": "Binding Key",
+          "type": "key_binding",
+          "key": "Key",
+          "value": "SHIFT F4",
+          "description": "Choose a Key to bind."
+        },
+      ]
+    },
+  ],
+  "types": [
+    {
+      "type": "text",
+      "name": "Text",
+      "value": ""
+    },
+    {
+      "type": "number",
+      "name": "Integer Number",
+      "value": ""
+    },
+    {
+      "type": "decimal",
+      "name": "Decimal Number",
+      "value": ""
+    },
+    {
+      "type": "color",
+      "name": "Color Value",
+      "value": ""
+    },
+    {
+      "type": "toggle",
+      "name": "ON/OFF Switch",
+      "value": ""
+    }
+  ],
+ "custom_types":[
+      {
+         "type":"key_binding",
+         "name":"F1",
+         "value":"no_modifiers F1"
+      },
+      {
+         "type":"key_binding",
+         "name":"F2",
+         "value":"no_modifiers F2"
+      },
+      {
+         "type":"key_binding",
+         "name":"F3",
+         "value":"no_modifiers F3"
+      },
+      {
+         "type":"key_binding",
+         "name":"F4",
+         "value":"no_modifiers F4"
+      },
+      {
+         "type":"key_binding",
+         "name":"F5",
+         "value":"no_modifiers F5"
+      },
+      {
+         "type":"key_binding",
+         "name":"F6",
+         "value":"no_modifiers F6"
+      },
+      {
+         "type":"key_binding",
+         "name":"F7",
+         "value":"no_modifiers F7"
+      },
+      {
+         "type":"key_binding",
+         "name":"F8",
+         "value":"no_modifiers F8"
+      },
+      {
+         "type":"key_binding",
+         "name":"F9",
+         "value":"no_modifiers F9"
+      },
+      {
+         "type":"key_binding",
+         "name":"F10",
+         "value":"no_modifiers F10"
+      },
+      {
+         "type":"key_binding",
+         "name":"F12",
+         "value":"no_modifiers F12"
+      },
+      {
+         "type":"key_binding",
+         "name":"SHIFT + F1",
+         "value":"SHIFT F1"
+      },
+      {
+         "type":"key_binding",
+         "name":"SHIFT + F2",
+         "value":"SHIFT F2"
+      },
+      {
+         "type":"key_binding",
+         "name":"SHIFT + F3",
+         "value":"SHIFT F3"
+      },
+      {
+         "type":"key_binding",
+         "name":"SHIFT + F4",
+         "value":"SHIFT F4"
+      },
+      {
+         "type":"key_binding",
+         "name":"SHIFT + F5",
+         "value":"SHIFT F5"
+      },
+      {
+         "type":"key_binding",
+         "name":"SHIFT + F6",
+         "value":"SHIFT F6"
+      },
+      {
+         "type":"key_binding",
+         "name":"SHIFT + F7",
+         "value":"SHIFT F7"
+      },
+      {
+         "type":"key_binding",
+         "name":"SHIFT + F8",
+         "value":"SHIFT F8"
+      },
+      {
+         "type":"key_binding",
+         "name":"SHIFT + F9",
+         "value":"SHIFT F9"
+      },
+      {
+         "type":"key_binding",
+         "name":"SHIFT + F10",
+         "value":"SHIFT F10"
+      },
+      {
+         "type":"key_binding",
+         "name":"SHIFT + F11",
+         "value":"SHIFT F11"
+      },
+      {
+         "type":"key_binding",
+         "name":"SHIFT + F12",
+         "value":"SHIFT F12"
+      },
+      {
+         "type":"key_binding",
+         "name":"CTRL + F1",
+         "value":"CTRL F1"
+      },
+      {
+         "type":"key_binding",
+         "name":"CTRL + F2",
+         "value":"CTRL F2"
+      },
+      {
+         "type":"key_binding",
+         "name":"CTRL + F3",
+         "value":"CTRL F3"
+      },
+      {
+         "type":"key_binding",
+         "name":"CTRL + F4",
+         "value":"CTRL F4"
+      },
+      {
+         "type":"key_binding",
+         "name":"CTRL + F5",
+         "value":"CTRL F5"
+      },
+      {
+         "type":"key_binding",
+         "name":"CTRL + F6",
+         "value":"CTRL F6"
+      },
+      {
+         "type":"key_binding",
+         "name":"CTRL + F7",
+         "value":"CTRL F7"
+      },
+      {
+         "type":"key_binding",
+         "name":"CTRL + F8",
+         "value":"CTRL F8"
+      },
+      {
+         "type":"key_binding",
+         "name":"CTRL + F9",
+         "value":"CTRL F9"
+      },
+      {
+         "type":"key_binding",
+         "name":"CTRL + F10",
+         "value":"CTRL F10"
+      },
+      {
+         "type":"key_binding",
+         "name":"CTRL + F11",
+         "value":"CTRL F11"
+      },
+      {
+         "type":"key_binding",
+         "name":"CTRL + F12",
+         "value":"CTRL F12"
+      },
+      {
+         "type":"key_binding",
+         "name":"ALT + F1",
+         "value":"ALT F1"
+      },
+      {
+         "type":"key_binding",
+         "name":"ALT + F2",
+         "value":"ALT F2"
+      },
+      {
+         "type":"key_binding",
+         "name":"ALT + F3",
+         "value":"ALT F3"
+      },
+      {
+         "type":"key_binding",
+         "name":"ALT + F4",
+         "value":"ALT F4"
+      },
+      {
+         "type":"key_binding",
+         "name":"ALT + F5",
+         "value":"ALT F5"
+      },
+      {
+         "type":"key_binding",
+         "name":"ALT + F6",
+         "value":"ALT F6"
+      },
+      {
+         "type":"key_binding",
+         "name":"ALT + F7",
+         "value":"ALT F7"
+      },
+      {
+         "type":"key_binding",
+         "name":"ALT + F8",
+         "value":"ALT F8"
+      },
+      {
+         "type":"key_binding",
+         "name":"ALT + F9",
+         "value":"ALT F9"
+      },
+      {
+         "type":"key_binding",
+         "name":"ALT + F10",
+         "value":"ALT F10"
+      },
+      {
+         "type":"key_binding",
+         "name":"ALT + F11",
+         "value":"ALT F11"
+      },
+      {
+         "type":"key_binding",
+         "name":"ALT + F12",
+         "value":"ALT F12"
+      }
+  ]
+}
